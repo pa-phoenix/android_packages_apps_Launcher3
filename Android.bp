@@ -147,6 +147,7 @@ android_app {
         "Launcher3CommonDepsLib",
     ],
     srcs: [
+        "src_base/**/*.java",
         "src/**/*.java",
         "src_shortcuts_overrides/**/*.java",
         "src_ui_overrides/**/*.java",
